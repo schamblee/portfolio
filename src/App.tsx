@@ -20,19 +20,30 @@ function App() {
           <p className="text-lg font-normal text-gray-600 lg:text-xl dark:text-gray-400 mb-12">
             Welcome to my resume 👋.
           </p>
-
-          <div className='flex flex-col items-center bg-white border border-gray-200 rounded-lg md:flex-row dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mb-12'>
-            <img className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg" src={daisy} alt="my dog Daisy" />
-            <div className="flex flex-col justify-between leading-normal">
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">About Me</h2>
+          <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg md:flex-row dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 mb-12">
+            <img
+              className="object-cover w-full rounded-t-lg h-120 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
+              src={daisy}
+              alt="my dog Daisy"
+            />
+            <div className="flex flex-col justify-between leading-normal sm:py-0 py-4">
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                About Me
+              </h2>
               <p className="mb-3 font-normal text-base text-gray-700 dark:text-gray-400 px-4">
-                I'm a senior full-stack engineer with over seven years of experience building secure, scalable web applications that are genuinely useful. I care a lot about clean architecture, accessibility, and reducing friction through thoughtful collaboration and problem-solving.
+                I'm a senior full-stack engineer with over seven years of experience building
+                secure, scalable web applications that are genuinely useful. I care a lot about
+                clean architecture, accessibility, and reducing friction through thoughtful
+                collaboration and problem-solving.
               </p>
               <p className="font-normal text-gray-700 dark:text-gray-400 px-4 pb-2">
-                Outside of work, I'm a new dog parent to Daisy (see left), a sweet pitbull mix who I've been spending most of my time with lately. I'm also into board games, video games, puzzles, and other nerdy stuff 😁.
+                Outside of work, I'm a new dog parent to Daisy (see left), a sweet pitbull mix who
+                I've been spending most of my time with lately. I'm also into board games, video
+                games, puzzles, and other nerdy stuff 😁.
               </p>
               <p className="font-normal text-gray-700 dark:text-gray-400 px-4 pb-2">
-                I’m currently looking for my next opportunity as a senior engineer where I can continue to grow while helping a team ship high-quality, well-crafted software.
+                I’m currently looking for my next opportunity as a senior engineer where I can
+                continue to grow while helping a team ship high-quality, well-crafted software.
               </p>
             </div>
           </div>
@@ -43,7 +54,8 @@ function App() {
                 startDate={new Date(e['startDate'])}
                 endDate={new Date(e['endDate'])}
                 title={e['title']}
-                highlights={e['highlights']} />
+                highlights={e['highlights']}
+              />
             ))}
           </Timeline>
           <Timeline heading="Education">
@@ -52,7 +64,8 @@ function App() {
                 startDate={new Date(e['startDate'])}
                 endDate={new Date(e['endDate'])}
                 title={e['degree']}
-                highlights={[e['institution']]} />
+                highlights={[e['institution']]}
+              />
             ))}
           </Timeline>
           <Timeline heading="Certifications">
@@ -61,7 +74,8 @@ function App() {
                 startDate={new Date(e['startDate'])}
                 endDate={new Date(e['endDate'])}
                 title={e['title']}
-                highlights={[e['provider']]} />
+                highlights={[e['provider']]}
+              />
             ))}
           </Timeline>
           <Timeline heading="Projects">
@@ -70,7 +84,8 @@ function App() {
                 startDate={new Date(e['startDate'])}
                 endDate={new Date(e['endDate'])}
                 title={e['title']}
-                highlights={[e['organization'], e['description']]} />
+                highlights={[e['organization'], e['description']]}
+              />
             ))}
           </Timeline>
           <Timeline heading="Conference Talks">
@@ -79,7 +94,8 @@ function App() {
                 startDate={new Date(e['startDate'])}
                 endDate={new Date(e['endDate'])}
                 title={e['title']}
-                highlights={e['events']} />
+                highlights={e['events']}
+              />
             ))}
           </Timeline>
         </div>
