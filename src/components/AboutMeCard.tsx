@@ -19,9 +19,11 @@ function AboutMeCard() {
           problem-solving.
         </p>
         <p className="font-normal text-gray-700 dark:text-white px-4 pb-2">
-          Outside of work, I'm a new dog parent to Daisy (see <span className='hidden sm:inline'>left</span><span className='sm:hidden'>above</span>), a sweet pitbull mix who I've
-          been spending most of my time with lately. I'm also into board games, video games,
-          puzzles, and other nerdy stuff 😁.
+          Outside of work, I'm a new dog parent to Daisy (see{' '}
+          <span className="hidden sm:inline">left</span>
+          <span className="sm:hidden">above</span>), a sweet pitbull mix who I've been spending most
+          of my time with lately. I'm also into board games, video games, puzzles, and other nerdy
+          stuff 😁.
         </p>
         <p className="font-normal text-gray-700 dark:text-white px-4 pb-2">
           I’m currently looking for my next opportunity as a senior engineer where I can continue to
