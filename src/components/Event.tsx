@@ -18,7 +18,7 @@ function Event({ startDate, endDate, company, title, highlights }: EventProps) {
         {endDate.toLocaleDateString()}
       </time>
       <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{title}</h3>
-      {company && <p className="test-base mb-2">{company}</p>}
+      {company ?? <p className="test-base mb-2">{company}</p>}
       <ul className="space-y-2">
         {highlights.map((highlight, i) => (
           <li className="text-base font-normal text-gray-600 dark:text-white" key={i}>
