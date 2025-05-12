@@ -18,6 +18,7 @@ function App() {
               <Event
                 startDate={new Date(e['startDate'])}
                 endDate={new Date(e['endDate'])}
+                company={e['company']}
                 title={e['title']}
                 highlights={e['highlights']}
               />
@@ -46,10 +47,11 @@ function App() {
           <Timeline heading="Projects">
             {resume['projects'].map((e) => (
               <Event
+                company={e['organization']}
                 startDate={new Date(e['startDate'])}
                 endDate={new Date(e['endDate'])}
                 title={e['title']}
-                highlights={[e['organization'], e['description']]}
+                highlights={[e['description']]}
               />
             ))}
           </Timeline>
