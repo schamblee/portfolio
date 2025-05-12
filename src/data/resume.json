@@ -2,7 +2,6 @@
   "name": "Stephanie Chamblee",
   "contact": {
     "location": "Remote",
-    "phone": "(678) 799-6460",
     "email": "stephaniejoychamblee@gmail.com",
     "linkedin": "https://linkedin.com/in/stephaniechamblee"
   },
@@ -157,7 +156,7 @@
       "type": "Conference Presentation",
       "startDate": "2021-10-01",
       "endDate": "2023-07-01",
-      "events": ["Connect.Tech 2021", "THAT Conference 2023"]
+      "events": ["THAT Conference 2023", "Connect.Tech 2021"]
     },
     {
       "title": "All About JWTs",
@@ -165,12 +164,12 @@
       "startDate": "2018-10-01",
       "endDate": "2021-10-01",
       "events": [
-        "Connect.Tech 2018",
-        "Orlando Codecamp 2019",
-        "DotNetSouth.Tech 2019",
-        "RevolutionConf 2019",
+        "Momentum 2021",
         "Code PaLOUsa 2019",
-        "Momentum 2021"
+        "RevolutionConf 2019",
+        "DotNetSouth.Tech 2019",
+        "Orlando Codecamp 2019",
+        "Connect.Tech 2018"
       ]
     }
   ]
