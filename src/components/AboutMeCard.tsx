@@ -4,7 +4,7 @@ function AboutMeCard() {
   return (
     <div className="flex flex-col items-center bg-white border border-gray-200 rounded-lg md:flex-row dark:border-gray-700 dark:bg-gray-800 mb-12">
       <img
-        className="object-cover w-full rounded-t-lg h-120 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
+        className="brightness-85 object-cover w-full rounded-t-lg h-120 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
         src={daisy}
         alt="my dog, Daisy"
       />
