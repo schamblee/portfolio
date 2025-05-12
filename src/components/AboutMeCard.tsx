@@ -6,7 +6,7 @@ function AboutMeCard() {
       <img
         className="object-cover w-full rounded-t-lg h-120 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
         src={daisy}
-        alt="my dog Daisy"
+        alt="my dog, Daisy"
       />
       <div className="flex flex-col justify-between leading-normal sm:py-0 py-4">
         <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -19,14 +19,14 @@ function AboutMeCard() {
           problem-solving.
         </p>
         <p className="font-normal text-gray-700 dark:text-white px-4 pb-2">
-          Outside of work, I'm a new dog parent to Daisy (see{' '}
+          Outside of work, I'm a new dog owner to Daisy (see{' '}
           <span className="hidden sm:inline">left</span>
           <span className="sm:hidden">above</span>), a sweet pitbull mix who I've been spending most
           of my time with lately. I'm also into board games, video games, puzzles, and other nerdy
           stuff 😁.
         </p>
         <p className="font-normal text-gray-700 dark:text-white px-4 pb-2">
-          I’m currently looking for my next opportunity as a senior engineer where I can continue to
+          I'm currently looking for my next opportunity as a senior engineer where I can continue to
           grow while helping a team ship high-quality, well-crafted software.
         </p>
       </div>
