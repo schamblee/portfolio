@@ -27,7 +27,7 @@ function AboutMeCard() {
         </p>
         <p className="font-normal text-gray-700 dark:text-white px-4 pb-2">
           I'm currently looking for my next opportunity as a senior engineer where I can continue to
-          grow while helping a team ship high-quality, well-crafted software.
+          grow while helping a team ship well-crafted software.
         </p>
       </div>
     </div>
