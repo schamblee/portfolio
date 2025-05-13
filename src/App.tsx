@@ -10,9 +10,8 @@ function App() {
   return (
     <main className="bg-white dark:bg-gray-900 antialiased">
       <div className="max-w-screen-xl px-4 py-8 mx-auto lg:px-6 sm:py-16 lg:py-24">
-        <div className="max-w-4xl mx-auto text-center mb-35 sm:mb-20">
+        <div className="max-w-3xl mx-auto text-center mb-35 sm:mb-20">
           <Header />
-          <AboutMeCard />
           <Timeline heading="Work Experience">
             {resume['experience'].map((e) => (
               <Event
@@ -65,6 +64,7 @@ function App() {
               />
             ))}
           </Timeline>
+          <AboutMeCard />
           <Footer />
         </div>
       </div>

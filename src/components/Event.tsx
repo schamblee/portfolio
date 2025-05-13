@@ -9,7 +9,7 @@ interface EventProps {
 function Event({ startDate, endDate, company, title, highlights }: EventProps) {
   return (
     <li className="mb-10 ms-4">
-      <div className="absolute w-3 h-3 group-odd:bg-sky-300 group-even:bg-emerald-600 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
+      <div className="absolute w-3 h-3 group-even:bg-sky-300 group-odd:bg-emerald-600 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"></div>
       <time className="mb-1 text-sm font-normal leading-none text-gray-600 dark:text-white">
         {startDate.toLocaleDateString()}
       </time>
