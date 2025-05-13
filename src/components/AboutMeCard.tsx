@@ -2,7 +2,7 @@ import daisy from '../assets/daisy.jpg'
 
 function AboutMeCard() {
   return (
-    <div id="AboutMe" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg md:flex-row dark:border-gray-700 dark:bg-gray-800 mb-12">
+    <div id="AboutMe" className="flex flex-col items-center bg-white border border-gray-200 rounded-lg md:flex-row dark:border-gray-700 dark:bg-gray-800 my-12">
       <img
         className="brightness-85 object-cover w-full rounded-t-lg h-120 md:h-auto md:w-60 md:rounded-none md:rounded-s-lg"
         src={daisy}
