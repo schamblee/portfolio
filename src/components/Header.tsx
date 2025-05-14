@@ -8,8 +8,7 @@ function Header() {
         Hello, I'm{' '}
         <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">
           Steph Chamblee
-        </span>
-        👋!
+        </span> 👋!
       </h1>
       <div className='mb-12'>
         <p className="text-base font-normal text-gray-700 dark:text-white block relative mb-4">
