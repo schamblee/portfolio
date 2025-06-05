@@ -19,19 +19,6 @@ function AboutMeCard() {
           of my time with lately. I'm also into board games, video games, puzzles, and other nerdy
           stuff 😁.
         </p>
-        <p className="font-normal text-gray-700 dark:text-white px-4 pb-2">
-          I'm currently looking for my next opportunity as a senior engineer where I can continue to
-          grow while helping a team ship well-crafted software.
-        </p>
-        <h2 className="text-gray-700 font-semibold text-lg dark:text-white">
-          Let's work together!
-        </h2>
-        <p className="font-normal text-gray-700 dark:text-white px-4 pb-2">
-          Email me at <a
-              href="mailto:stephaniejoychamblee@gmail.com?subject=Let's Schedule an Interview!"
-              className="underline text-sky-700/90 hover:text-sky-800 dark:text-sky-400 dark:hover:text-sky-500"
-          >stephaniejoychamblee@gmail.com</a>.
-        </p>
       </div>
     </div>
   )

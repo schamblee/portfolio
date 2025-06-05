@@ -6,7 +6,7 @@ function Footer() {
       </span>
       <div className="flex mt-2 sm:mt-4 justify-center md:mt-0 space-x-5 rtl:space-x-reverse">
         <a
-          href="mailto:stephaniejoychamblee@gmail.com?subject=Let's Schedule an Interview!"
+          href="mailto:stephaniejoychamblee@gmail.com"
           className="text-gray-500 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white"
         >
           <svg

@@ -11,7 +11,7 @@
     {
       "company": "Merit America",
       "title": "Senior Software Engineer II",
-      "startDate": "2022-08-01",
+      "startDate": "2022-08-15",
       "endDate": "2025-05-28",
       "highlights": [
         "Built and maintained web applications with Ruby on Rails, PostgreSQL, and Tailwind CSS, supporting multiple departments to advance the organization's mission.",
@@ -24,8 +24,8 @@
     {
       "company": "Kroger",
       "title": "Senior Software Engineer",
-      "startDate": "2021-06-01",
-      "endDate": "2022-08-01",
+      "startDate": "2021-06-15",
+      "endDate": "2022-08-15",
       "highlights": [
         "Led migration from a custom identity solution to Azure AD B2C, enabling secure authentication for millions of Kroger customers and enhancing reliability.",
         "Re-architected a high-traffic Node.js API by building a middleware that leveraged the service-client architecture, improving test coverage by 80% and reducing onboarding time for new developers.",
@@ -35,8 +35,8 @@
     {
       "company": "Auth0",
       "title": "Community Engineer II",
-      "startDate": "2020-12-01",
-      "endDate": "2021-06-01",
+      "startDate": "2020-12-15",
+      "endDate": "2021-06-15",
       "highlights": [
         "Delivered 300+ custom solutions within one year across varied tech stacks, increasing secure authentication adoption across developer communities.",
         "Published a two-part IoT tutorial series on the Auth0 blog using Arduino and real-time data visualization; received strong community engagement."
@@ -45,8 +45,8 @@
     {
       "company": "Cricket Wireless",
       "title": "Software Engineer",
-      "startDate": "2020-02-01",
-      "endDate": "2020-12-01",
+      "startDate": "2020-02-15",
+      "endDate": "2020-12-15",
       "highlights": [
         "Developed accessible, mobile-optimized features for cricketwireless.com, including a Node.js microservice that enabled non-technical teams to launch marketing campaigns.",
         "Led sessions on WCAG compliance and development best practices, strengthening accessibility awareness and elevating engineering standards across the department."
@@ -55,8 +55,8 @@
     {
       "company": "BrightLink",
       "title": "Associate Software Engineer",
-      "startDate": "2018-07-01",
-      "endDate": "2020-02-01",
+      "startDate": "2018-07-15",
+      "endDate": "2020-02-15",
       "highlights": [
         "Built scalable certification tools and OAuth 2.0-compliant eCommerce flows using AWS (SQS, Lambda, and API Gateway).",
         "Delivered full-stack features in Python and JavaScript across high-impact releases, promoting engineering excellence through workshops on accessibility, security, and TDD."
@@ -107,30 +107,30 @@
       "institution": "Florida State University",
       "location": "Panama City, FL",
       "gpa": "4.0",
-      "startDate": "2012-01-01",
-      "endDate": "2012-12-01"
+      "startDate": "2012-01-15",
+      "endDate": "2012-12-15"
     },
     {
       "degree": "Bachelor of Science in Professional Communication",
       "institution": "Florida State University",
       "location": "Panama City, FL",
       "gpa": "4.0",
-      "startDate": "2010-01-01",
-      "endDate": "2011-12-01"
+      "startDate": "2010-01-15",
+      "endDate": "2011-12-15"
     }
   ],
   "certifications": [
     {
       "title": "WAI0.1x: Introduction to Web Accessibility",
       "provider": "W3Cx",
-      "startDate": "2024-03-01",
-      "endDate": "2024-05-01"
+      "startDate": "2024-03-15",
+      "endDate": "2024-05-15"
     },
     {
       "title": "Full Stack Development Program",
       "provider": "Thinkful",
-      "startDate": "2018-01-01",
-      "endDate": "2018-06-01"
+      "startDate": "2018-01-15",
+      "endDate": "2018-06-15"
     }
   ],
   "projects": [
@@ -138,15 +138,15 @@
       "title": "Review Management Platform",
       "organization": "World Insurance Association, Inc.",
       "dates": "07/2020 - 01/2024",
-      "startDate": "2020-07-01",
-      "endDate": "2024-01-01",
+      "startDate": "2020-07-15",
+      "endDate": "2024-01-15",
       "description": "Sole developer of a full-stack Node.js and React application that integrated with the HubSpot API to manage customer review content. The platform enabled staff to edit, approve, and publish curated reviews across 10 affiliated company websites. Over the course of 3.5 years, developed new features, handled ongoing maintenance, and delivered a user-friendly interface that streamlined content workflows. Helped improve publishing efficiency and consistency across the organization’s online presence."
     },
     {
       "title": "Ambassador Program",
       "organization": "Auth0",
-      "startDate": "2018-11-01",
-      "endDate": "2021-01-01",
+      "startDate": "2018-11-15",
+      "endDate": "2021-01-15",
       "description": "Represented Auth0 as a developer ambassador at conferences and meetups across the U.S., delivering technical talks on authentication, OAuth, and identity best practices to developer audiences."
     }
   ],
@@ -154,15 +154,15 @@
     {
       "title": "Understanding OAuth and OpenID Connect",
       "type": "Conference Presentation",
-      "startDate": "2021-10-01",
-      "endDate": "2023-07-01",
+      "startDate": "2021-10-15",
+      "endDate": "2023-07-15",
       "events": ["THAT Conference 2023", "Connect.Tech 2021"]
     },
     {
       "title": "All About JWTs",
       "type": "Conference Presentation",
-      "startDate": "2018-10-01",
-      "endDate": "2021-10-01",
+      "startDate": "2018-10-15",
+      "endDate": "2021-10-15",
       "events": [
         "Momentum 2021",
         "Code PaLOUsa 2019",
